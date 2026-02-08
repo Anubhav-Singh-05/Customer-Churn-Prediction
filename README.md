@@ -13,17 +13,18 @@ and model training are **decoupled for scalability and reliability**.
 ## Problem Statement
 
 Customer churn directly impacts business revenue.
-To proactively identify high-risk customers, organizations
-need systems capable of processing **high-volume event data**
-and generating predictive insights at scale.
+To proactively identify high-risk customers, organizations require
+systems capable of processing **high-volume event data** and
+generating predictive insights at scale.
 
-This project addresses that challenge using distributed
-streaming and batch analytics.
+This project demonstrates an **end-to-end Big Data pipeline**
+combining real-time streaming and batch analytics for churn prediction.
+
 
 
 ---
 
-## System Architecture
+## Architecture Overview
 
 The pipeline follows a **Lambda-style architecture**:
 
@@ -33,9 +34,11 @@ The pipeline follows a **Lambda-style architecture**:
 
 ### High-Level Flow
 
-Kafka → Spark Structured Streaming → HDFS  
-HDFS → Spark Batch Processing → ML Model (MLlib)  
-Airflow → Orchestrates batch & training workflows
+
+- Kafka → Spark Structured Streaming → HDFS (raw & curated data)
+- HDFS → Spark Batch Processing → ML Model training (MLlib)
+- Airflow → Orchestrates batch processing and model training
+
 
 ---
 
