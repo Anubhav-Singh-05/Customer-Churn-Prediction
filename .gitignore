@@ -1,0 +1,31 @@
+# =====================
+# Big Data / Runtime
+# =====================
+data/
+logs/
+hdfs/
+hive/
+spark-warehouse/
+checkpoints/
+metastore_db/
+derby.log
+
+# =====================
+# Spark / Hadoop junk
+# =====================
+*.crc
+*.avro
+*.parquet
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+
+# =====================
+# OS / IDE
+# =====================
+.vscode/
+.idea/
+.DS_Store
