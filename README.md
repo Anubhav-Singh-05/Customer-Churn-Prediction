@@ -24,12 +24,6 @@ and orchestration logic are versioned, while runtime data and artifacts are gene
 
 Kafka → Spark Structured Streaming → HDFS → Spark Batch Processing → ML Model  
 
-\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;↑  
-
-\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;\&nbsp;Apache Airflow (Orchestration)
-
-
-
 ---
 
 
