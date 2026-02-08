@@ -20,6 +20,7 @@ and generating predictive insights at scale.
 This project addresses that challenge using distributed
 streaming and batch analytics.
 
+
 ---
 
 ## System Architecture
